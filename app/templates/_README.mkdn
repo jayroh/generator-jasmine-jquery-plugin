@@ -1,0 +1,18 @@
+# <%= pluginName %>
+
+## Sample README introduction
+
+Be compelling. Why should people use this?
+
+## Installation
+
+How would one get this up and running as quickly and painless as possible?
+
+## Contributers
+
+Who are you? Who are your cohorts?
+
+## How to contribute
+
+How would one go about contributing to the project? Are there any style guides
+or coding conventions they should follow?

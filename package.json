@@ -1,0 +1,44 @@
+{
+  "name": "generator-jasmine-jquery-plugin",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/jayroh/generator-jasmine-jquery-plugin",
+  "bugs": "https://github.com/jayroh/generator-jasmine-jquery-plugin/issues",
+  "author": {
+    "name": "Joel Oliveira",
+    "email": "joel.oliveira@gmail.com",
+    "url": "https://github.com/jayroh"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jayroh/generator-jasmine-jquery-plugin.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0",
+    "generator-buster": "~0.0.1",
+    "underscore.string": "~2.3.1",
+    "chalk": "~0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
