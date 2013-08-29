@@ -1,9 +1,12 @@
 {
   "name": "generator-jasmine-jquery-plugin",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.0.1",
+  "description": "A generator for building jquery plugins - test driven with jasmine.",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "jquery",
+    "jasmine",
+    "coffeescript"
   ],
   "homepage": "https://github.com/jayroh/generator-jasmine-jquery-plugin",
   "bugs": "https://github.com/jayroh/generator-jasmine-jquery-plugin/issues",
