@@ -72,7 +72,3 @@ JasmineJqueryPluginGenerator.prototype.app = function app() {
   this.copy('demo/style.css', 'demo/style.css')
   this.template('demo/_index.html', 'demo/index.html')
 };
-
-JasmineJqueryPluginGenerator.prototype.projectfiles = function projectfiles() {
-  this.copy('jshintrc', '.jshintrc');
-};
