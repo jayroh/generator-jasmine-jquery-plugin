@@ -8,10 +8,12 @@ To install generator-jasmine-jquery-plugin from npm, run:
 $ npm install -g git+ssh://git@github.com:jayroh/generator-jasmine-jquery-plugin.git
 ```
 
-Finally, initiate the generator:
+Create your project dir, cd in, run the generator and install the npm dependencies:
 
-```
+```bash
+$ mkdir my_project && cd $_
 $ yo jasmine-jquery-plugin
+$ grunt # to compile sample coffeescript and run 1 sample spec
 ```
 
 ## License
