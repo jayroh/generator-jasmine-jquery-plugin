@@ -4,9 +4,13 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     jasmine : {
-      src : 'src/**/*.js',
+      src : 'dist/**/*.js',
       options : {
-        specs : 'spec/**/*.js'
+        specs : 'spec/**/*.js',
+        helpers : [
+          'bower_components/jquery/jquery.js',
+          'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
+        ]
       }
     },
     uglify: { // Minify definitions
@@ -26,6 +30,7 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-coffee-server');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-coffee');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
