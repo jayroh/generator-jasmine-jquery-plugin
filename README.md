@@ -8,7 +8,7 @@ To install generator-jasmine-jquery-plugin from npm, run:
 $ npm install -g git+ssh://git@github.com:jayroh/generator-jasmine-jquery-plugin.git
 ```
 
-Create your project dir, cd in, run the generator and install the npm dependencies:
+Create your project dir, cd in, run the generator and run `grunt` for the first time
 
 ```bash
 $ mkdir my_project && cd $_
